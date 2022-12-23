@@ -1,0 +1,10 @@
+sortedArr = arr[arr[:,1].argsort()]
+print('Sorted 2D Numpy Array')
+print(sortedArr)
+new_arr= arr[:,1] + 2000
+arr[:,1]=new_arr
+arr
+matched = arr[:,1]>9000
+matched
+new_arr = arr[matched]
+new_arr
